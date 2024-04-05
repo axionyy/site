@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    background-image:url(fonn.png);
+    margin: 0;
+    padding: 0;
+}
+header {
+    text-align: justify;
+    letter-spacing: 1px;
+    height: 5em;
+    padding: 2vh 5%;
+    background: #77a035;
+    color: #000;
+    text-decoration: none;
+}
+header h1,
+header nav {
+    display: inline-block;
+}
+header::after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+}
+header h1 {
+    height: 100%;
+}
+ 
+header h1::before {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;  
+    height: 100%;
+}
+p{
+    color: #333;
+}
+a{
+    margin: 5px;
+    line-height: 1.5px;
+    color: #000;
+    text-decoration: none;
+}
+
+.product {
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #e7d7ab;
+    line-height: 1.5px;
+}
+
+
+.product img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.product h2 {
+    text-align: center;
+    color: #333;
+}
+
+.product p {
+    color: #666;
+}
+.text{
+    text-align: center;
+}
+.aboutText{
+    margin-left: 10vh;
+    margin-right: 10vh;
+    font-family: "Times New Romans";
+    font-size: 17pt;
+}
+.requT{
+    margin-top: 10vh;
+    margin-left: 10vh;
+    margin-right: 10vh;
+    font-family: "Times New Romans";
+    font-size: 17pt;
+}
+table{
+}
+td{
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    height: 5vh;
+    text-align: center;
+}
+th{
+    height: 10vh;
+    width: 100vh;
+    text-align: center;
+}
+.Headers{
+    background-color: #333333;
+    height: 3vh;
+}
+.requ{
+    margin-left: 20vh;
+}
+
+footer {
+    text-align: center;
+    background-color: #77a035;
+    color: #000;
+    padding: 10px 0;
+}
